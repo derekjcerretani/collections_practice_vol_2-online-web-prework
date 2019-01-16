@@ -106,7 +106,7 @@ def first_wa(array)
   starts_with_wa = []
   no_wa = []
   array.each do |word|
-    if word.split(" ")to_s.start_with?("wa")
+    if word.split(" ").to_s.start_with?("wa")
       starts_with_wa << word
     else
       no_wa << word
