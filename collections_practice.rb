@@ -84,5 +84,5 @@ end
 =end
 
 def begins_with_r(array)
-  array.each { |word| word.start_with?("r") }
+  array.start_with("r")
 end
