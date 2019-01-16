@@ -107,5 +107,7 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.delete_if { |n| n != String }
+  string_array = []
+  array.delete_if { |n| string_array << n.is_a? String }
+  string_array
 end
