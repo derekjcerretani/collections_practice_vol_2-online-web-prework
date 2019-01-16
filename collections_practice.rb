@@ -113,3 +113,4 @@ def remove_non_strings(array)
   end
   string_array
 end
+end
