@@ -101,3 +101,17 @@ def contain_a(array)
   end
   a_words 
 end
+
+def first_wa(array)
+  starts_with_wa = []
+  no_wa = []
+  array.each.to_s do |word|
+    if word.start_with?("wa")
+      word << starts_with_wa
+    else
+      word << no_wa
+    end
+  end
+  starts_with_wa
+end
+
