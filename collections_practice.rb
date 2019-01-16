@@ -91,5 +91,12 @@ end
 
 def contain_a(array)
   a_word = []
-  array.map {|word| a_word << word.include?("a") }
+  array.map do |word| 
+    if word.include?("a")
+      a_word << word
+    else
+      "No words include the letter 'a'."
+    end
+  end
+  
 end
