@@ -90,14 +90,14 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  a_word = []
-  no_a_word = []
+  a_words = []
+  no_a_words = []
   array.each do |word|
     if word.include?("a")
-      a_word << word
+      a_words << word
     else
-      no_a_word << word
+      no_a_words << word
     end
-    a_word
-  end
+    a_words
+  end 
 end
