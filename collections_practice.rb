@@ -91,11 +91,6 @@ end
 
 def contain_a(array)
   a_word = []
-  array.each do |word|
-    if word.include?("a")
-      a_word << word
-    end
-    a_word
-    binding.pry
-  end
+  a_word << array.collect.include?("a")
+  a_word
 end
