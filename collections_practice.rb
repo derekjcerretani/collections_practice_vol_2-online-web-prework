@@ -91,7 +91,7 @@ end
 
 def contain_a(array)
   a_word = []
-  array.map do |word|
+  array.each do |word|
     if word.include?("a")
       a_word << word
     else
