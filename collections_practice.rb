@@ -96,5 +96,6 @@ def contain_a(array)
       a_word << word
     end
     a_word
+    binding.pry
   end
 end
