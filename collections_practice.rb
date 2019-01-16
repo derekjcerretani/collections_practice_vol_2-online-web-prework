@@ -98,6 +98,6 @@ def contain_a(array)
     else
       no_a_word << word
     end
-    a_word 
+    a_word
   end
 end
