@@ -93,5 +93,6 @@ def contain_a(array)
     if word.include?("a")
       a_word << word
     end
+    a_word
   end
 end
