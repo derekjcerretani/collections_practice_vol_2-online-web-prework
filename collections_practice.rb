@@ -91,6 +91,5 @@ end
 
 def contain_a(array)
   a_word = []
-  a_word << array.collect.include?("a")
-  a_word
+  array.map {|word| a_word << word.include?("a") }
 end
