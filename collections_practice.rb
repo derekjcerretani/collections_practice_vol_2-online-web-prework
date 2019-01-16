@@ -83,22 +83,3 @@ def organize_schools(hash)
 end
 =end
 
-puts
-puts
-puts
-puts
-puts
-puts
-puts
-puts
-puts
-puts
-puts
-puts
-puts
-puts
-/n
-/n
-/n
-/n
-/n
