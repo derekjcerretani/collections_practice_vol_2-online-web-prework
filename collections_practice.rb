@@ -17,7 +17,7 @@ def begins_with_r(array)
   end
 end
 
-=end
+
 
 def begins_with_r(array)
   array.all? { |string| string.start_with?("r") }
@@ -81,3 +81,21 @@ def organize_schools(hash)
   hash.each { |school, location| locations[location.values[0]] << school }
   locations
 end
+=end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
