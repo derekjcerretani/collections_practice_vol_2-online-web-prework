@@ -82,4 +82,3 @@ def organize_schools(hash)
   locations
 end
 =end
-
