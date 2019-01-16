@@ -107,10 +107,9 @@ def first_wa(array)
   no_wa = []
   array.each do |word|
     if word.to_s.start_with?("wa")
-      starts_with_wa.join << word
+      starts_with_wa << word
     else
       no_wa << word
     end
-    starts_with_wa
   end
 end
