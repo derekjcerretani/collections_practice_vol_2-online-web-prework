@@ -98,5 +98,5 @@ def contain_a(array)
       "No words include the letter 'a'."
     end
   end
-  
+
 end
