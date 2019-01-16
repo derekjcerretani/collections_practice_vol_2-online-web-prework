@@ -103,14 +103,5 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  starts_with_wa = []
-  no_wa = []
-  array.find do |word|
-    if word.to_s.start_with?("wa")
-      starts_with_wa << word
-    else
-      no_wa << word
-    end
-  end
-  starts_with_wa
+  array.find { |word| word.to_s.start_with?("wa") }
 end
