@@ -99,7 +99,7 @@ def contain_a(array)
       no_a_words << word
     end
   end
-  a_words 
+  a_words
 end
 
 def first_wa(array)
@@ -114,4 +114,3 @@ def first_wa(array)
   end
   starts_with_wa
 end
-
