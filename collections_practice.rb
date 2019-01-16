@@ -88,5 +88,10 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.include?("a")
+  a_word = []
+  array.each do |word|
+    if word.include?("a")
+      a_word << word
+    end
+  end
 end
