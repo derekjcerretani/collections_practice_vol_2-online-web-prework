@@ -91,12 +91,13 @@ end
 
 def contain_a(array)
   a_word = []
+  no_a_word = []
   array.each do |word|
     if word.include?("a")
       a_word << word
     else
-      "No words include the letter 'a'."
+      no_a_word << word
     end
+    a_word 
   end
-
 end
