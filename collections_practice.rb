@@ -109,8 +109,7 @@ end
 def remove_non_strings(array)
   string_array = []
   array.delete_if do |n|
-    string_array << n.is_a? String
+    string_array << n.is_a?(String)
   end
   string_array
-end
 end
